@@ -8,6 +8,10 @@
     "url": "git://github.com/isaacs/minimatch.git"
   },
   "main": "minimatch.js",
+  "tap": {
+    "coverage": false,
+    "check-coverage": false
+  },
   "scripts": {
     "test": "tap",
     "snap": "tap",
