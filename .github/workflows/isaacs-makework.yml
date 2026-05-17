@@ -1,14 +1,15 @@
-name: "various tidying up tasks to silence nagging"
+name: various tidying up tasks to silence nagging
 
 on:
   push:
     branches:
       - main
+      - master
   workflow_dispatch:
 
 jobs:
   makework:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
         with:
